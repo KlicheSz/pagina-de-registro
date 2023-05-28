@@ -84,7 +84,9 @@ header {
 .navegacion .btnEntrar-button:hover {
     background: black;
     color: #fff;
-}
+}  
+/* ! en este punto terminan los estilos de la barra de navegacion-(header)  */
+
 
 .wrapper {
     position: relative;
@@ -97,11 +99,14 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    /* flex-direction: column; */
+    
 }
 
 .wrapper .form-box {
     width: 90%;
     height: 350px;
+    flex-direction: column;
 }
 
 .form-box h2 {
