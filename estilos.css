@@ -99,14 +99,11 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* flex-direction: column; */
-    
 }
 
 .wrapper .form-box {
     width: 90%;
     height: 350px;
-    flex-direction: column;
 }
 
 .form-box h2 {
@@ -219,12 +216,13 @@ header {
     text-decoration: underline;
 }
 /* ? verificar los estilos para agregar efecto pantalla responcive no me funciona */
-
+/*  ! aprendiendo sobre las mediaqueri pantalla adaptable a dispositivos moviles */
 /* @media (max-width:425px) {
     .form-box .input-box .remember-forgot .btn {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
+       
     }
     header {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
 } */
