@@ -90,8 +90,8 @@ header {
 
 .wrapper {
     position: relative;
-    width: 350px;
-    height: 440px;
+    width: 340px;
+    height: 480px;
     background: transparent;
     border: 2px solid rgba(255, 255, 255, .5);
     border-radius: 20px;backdrop-filter: blur(5px);
@@ -99,6 +99,25 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    /* overflow: hidden; */
+}
+
+.wrapper .icon-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    font-size: 2em;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 15px;
+    cursor: pointer;
+    z-index: 1;
+
 }
 
 .wrapper .form-box {
@@ -106,10 +125,26 @@ header {
     height: 350px;
 }
 
+.wrapper .form-box.login {
+    /* display: none; */
+}
+
+.wrapper .form-box.register {
+    position: absolute;
+    transform: translateX(400px);
+}
+
 .form-box h2 {
     font-size: 2em;
     color: black;
     text-align: center;
+}
+
+.form-box .remember-forgot {
+    color: blue; 
+    text-decoration: none;
+    cursor: pointer;
+    
 }
 
 .input-box {
@@ -215,6 +250,16 @@ header {
 .register-link:hover {
     text-decoration: underline;
 }
+
+.login_link {
+    color: blue;
+    text-decoration: none;
+}
+
+.login_link:hover {
+    text-decoration: underline;
+}
+
 /* ? verificar los estilos para agregar efecto pantalla responcive no me funciona */
 /*  ! aprendiendo sobre las mediaqueri pantalla adaptable a dispositivos moviles */
 /* @media (max-width:425px) {
