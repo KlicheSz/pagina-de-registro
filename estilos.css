@@ -130,7 +130,7 @@ header {
     width: 90%;
     height: 350px;
 }
-
+/*  ? verificar el codigo para dar funcion al login no me funciona */
 .wrapper .form-box.login {
     transition: transform .18s ease;
     transform: translateX(0);
@@ -147,7 +147,7 @@ header {
     transform: translateX(400px);
 }
 .wrapper.active .form-box.register {
-    transition: transform .18s ease;
+    transition: transform .18s ease; /* ? verificar el codigo linea 134 a linea 152 */
     transform: translateX(0);
 }
 
