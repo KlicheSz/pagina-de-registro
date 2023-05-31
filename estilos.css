@@ -85,8 +85,8 @@ header {
     background: black;
     color: #fff;
 }  
-/* ! en este punto terminan los estilos de la barra de navegacion-(header)  */
 
+/* ! en este punto terminan los estilos de la barra de navegacion-(header)  */
 
 .wrapper {
     position: relative;
@@ -104,9 +104,9 @@ header {
     transition: height .2s ease;
 }
 
-.wrapper.active {
+/* .wrapper.active {
     height: 500px;
-}
+} */
 
 .wrapper .icon-close {
     position: absolute;
@@ -130,7 +130,7 @@ header {
     width: 90%;
     height: 350px;
 }
-/*  ? verificar el codigo para dar funcion al login no me funciona */
+/*  ? verificar el codigo para dar funcion de entrelasar los dos  login no me funciona */
 .wrapper .form-box.login {
     transition: transform .18s ease;
     transform: translateX(0);
