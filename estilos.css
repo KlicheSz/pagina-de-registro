@@ -147,9 +147,9 @@ header {
     transform: translateX(400px);
 }
 .wrapper.active .form-box.register {
-    transition: transform .18s ease; /* ? verificar el codigo linea 134 a linea 152 */
+    transition: transform .18s ease; 
     transform: translateX(0);
-}
+} /* ? verificar el codigo linea 134 a linea 152 */
 
 .form-box h2 {
     font-size: 2em;
@@ -288,3 +288,4 @@ header {
         font-size: 1.5rem;
     }
 } */
+/* ? tengo varios errores en mi codigo debo dar solucion ¡ayuda!   */
